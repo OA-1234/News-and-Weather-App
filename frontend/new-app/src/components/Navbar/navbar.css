@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+
+:root {
+  --primary-color: #662ad5;
+  --secondary-color: #99D52A;
+}
+
+ul {
+  display: flex;
+  justify-content: left;
+  background-color: var(--primary-color);
+}
+
+li, .NavItem {
+  display: flex;
+  width: 2rem;
+  height: auto;
+  text-decoration: none;
+  justify-content: center;
+  align-content: center;
+  background-color: var(--primary-color);
+  font-size: 1.5rem;
+  color: white;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-color: grey;
+}
+
+li, .NavItem:hover {
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: 1em 1em 1em 1em;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

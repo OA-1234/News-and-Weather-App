@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+
+.App {
+  color: blue;
+}
+
+ul {
+  display: flex;
+  justify-content: left;
+  background-color: gray;
+}
+
+li {
+  display: flex;
+  width: 2rem;
+  height: auto;
+  text-decoration: none;
+  justify-content: center;
+  align-content: center;
+  background-color: grey;
+  font-size: 1.5rem;
+  color: white;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-color: grey;
+}
+
+li:hover {
+  background-color: black;
+  color: grey;
+}
